@@ -46,7 +46,7 @@ namespace CrupApp.Pages
 
                 var result = await _service.InsertAndUpdateUserAsync(user);
                 if (result)
-                {
+                { 
                     await DisplayAlert("Success", "Insert Successfully", "OK");
                     //await Navigation.PushAsync(new MainPage());
                     await Navigation.PopAsync(); //previous page
