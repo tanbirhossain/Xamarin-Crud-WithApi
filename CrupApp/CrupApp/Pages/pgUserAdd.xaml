@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrupApp.Pages.pgUserAdd">
+    <StackLayout>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+
+                <Label Margin="0,0,0,10" Text="Chill App" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                <Entry x:Name="txtPersonId" Placeholder="PersonId Update and Delete"></Entry>
+                <Entry x:Name="txtName" Placeholder="Enter Person Name"></Entry>
+                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnAdd" WidthRequest="100" Text="Add" Clicked="BtnAdd_Clicked" />
+                    <!--<Button x:Name="btnRead" WidthRequest="100" Text="Read" Clicked="BtnRead_Clicked"/>-->
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnUpdate" WidthRequest="100" Text="Update" Clicked="BtnUpdate_Clicked" />
+                    <Button x:Name="btnDelete" WidthRequest="100" Text="Delete" Clicked="BtnDelete_Clicked"/>
+                </StackLayout>
+               
+
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
