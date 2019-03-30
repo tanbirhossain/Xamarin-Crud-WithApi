@@ -10,7 +10,7 @@ namespace CrupApp.Services
 {
     public class UserService
     {
-        string BaseUrl = "http://192.168.0.67:8082/api/";
+        string BaseUrl = "http://192.168.147.1:8082/api/";
         string BearerToken = null;
 
         HttpClient client; 

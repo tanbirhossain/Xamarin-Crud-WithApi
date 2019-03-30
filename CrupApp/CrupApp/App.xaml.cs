@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +16,7 @@ namespace CrupApp
 
         protected override void OnStart()
         {
+             //Task.Run(async () => await SignalR.SignalRClient.SendMessage("xaminUser", "Hi bro Chill from main"));
             // Handle when your app starts
         }
 
